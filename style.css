@@ -77,6 +77,30 @@ header a {
     height: 40px;
 }
 
+.editar {
+    width: 120px;
+    background-color: #b53d08;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    height: 40px;
+}
+
+.eliminar {
+    width: 120px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    height: 40px;
+    background-color:#f8ecb3;
+    color: #b53d08;
+}
+
 #intro {
     width: 60%;
     margin: auto;
@@ -168,3 +192,8 @@ footer a {
     text-align: center;
     height: 40px;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    footer img {
+        width: 150px;
+    }
