@@ -43,7 +43,16 @@ form button:hover {
     background-color:#f8ecb3;
     color: #b53d08;
 }
+ul {
+    width: 80%;
+    list-style: none;
+}
 
+li {
+    font-family: 'lato';
+    font-size: 15px;
+    color: #b53d08;
+}
 header {
     background-color:#fff;
     display: block;
